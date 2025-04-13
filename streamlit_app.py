@@ -283,7 +283,7 @@ INVENTORY_DATA = {
         {
             "Title": "**Heimler's History Video Review Guide + Noteguides**",
             "ID": "**HGP_100**",
-            "Description": "**All the resources available in Heimler's History paid APHG materials for cheaper"**,
+            "Description": "**All the resources available in Heimler's History paid APHG materials for cheaper**",
             "Purchase": "**[$22]({PURCHASE_LINK})**"
         },
         {
