@@ -1,6 +1,7 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
-# Custom CSS to match Mainframe AI styling
+# Custom CSS for styling
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
@@ -13,6 +14,7 @@ st.markdown("""
         width: 100%;
         border-collapse: collapse;
         margin: 25px 0;
+        color: #ffffff;
     }
     
     .inventory-table th, .inventory-table td {
@@ -24,10 +26,6 @@ st.markdown("""
     .inventory-table th {
         background-color: #0b1936;
         color: #5799f7;
-    }
-    
-    .inventory-table td {
-        color: #ffffff;
     }
     
     .purchase-button {
@@ -77,41 +75,10 @@ INVENTORY_DATA = {
     ],
 }
 
-def check_password():
-    """Password check for shop access"""
-    if 'access_level' not in st.session_state:
-        st.session_state['access_level'] = None
-
-    def password_entered():
-        if st.session_state["shop_password"] == st.secrets["PW"]:
-            st.session_state["shop_password_correct"] = True
-            st.session_state["access_level"] = "Verified"
-        else:
-            st.session_state["shop_password_correct"] = False
-
-    if "shop_password_correct" in st.session_state:
-        if st.session_state["shop_password_correct"]:
-            return True, st.session_state["access_level"]
-
-    st.title("🛍️ Mainframe Shop")
-    st.markdown("### Vendor portal authentication")
-    st.text_input(
-        "Password", 
-        type="password",
-        on_change=password_entered,
-        key="shop_password"
-    )
-    
-    if "shop_password_correct" in st.session_state:
-        if not st.session_state["shop_password_correct"]:
-            st.error("Incorrect vendor code")
-    
-    return False, None
-
 def render_table(category, items):
-    """Renders a table for a specific category."""
+    """Generates HTML table for a specific category."""
     table_html = f"""
-    <h2>{category}</h2>
+    <h2 style="color:#5799f7;">{category}</h2>
     <table class="inventory-table">
         <thead>
             <tr>
@@ -139,20 +106,17 @@ def render_table(category, items):
     </table>
     """
     
-    st.markdown(table_html, unsafe_allow_html=True)
+    return table_html
 
 def main():
-    # Password check
-    password_correct, access_level = check_password()
-    if not password_correct:
-        return
-    
-    # Main content
     st.title("🛍️ Mainframe Shop")
     
-    # Render tables for each category
+    # Render tables for each category using st.components.v1.html
     for category, items in INVENTORY_DATA.items():
-        render_table(category, items)
+        table_html = render_table(category, items)
+        
+        # Use components.html to render the table properly
+        components.html(table_html, height=400, scrolling=True)
 
 if __name__ == "__main__":
     main()
