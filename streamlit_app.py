@@ -49,21 +49,33 @@ st.markdown("""
 # Google Form URL (replace with actual form URL)
 PURCHASE_LINK = "https://forms.google.com"
 
-# Sample inventory data - customize this in your code
-INVENTORY_DATA = [
-    {
-        "Title": "Quantum Processor X9",
-        "ID": "MF-001",
-        "Category": "Hardware",
-        "Description": "Next-gen quantum processing unit with 128 qubits"
-    },
-    {
-        "Title": "Neural Interface Module",
-        "ID": "MF-002",
-        "Category": "Peripherals",
-        "Description": "High-bandwidth neural connectivity interface"
-    }
-]
+# Sample inventory data for multiple categories
+INVENTORY_DATA = {
+    "Hardware": [
+        {
+            "Title": "Quantum Processor X9",
+            "ID": "MF-001",
+            "Description": "Next-gen quantum processing unit with 128 qubits"
+        },
+        {
+            "Title": "Advanced GPU Zeta",
+            "ID": "MF-003",
+            "Description": "High-performance GPU for AI workloads"
+        },
+    ],
+    "Peripherals": [
+        {
+            "Title": "Neural Interface Module",
+            "ID": "MF-002",
+            "Description": "High-bandwidth neural connectivity interface"
+        },
+        {
+            "Title": "Holographic Display Unit",
+            "ID": "MF-004",
+            "Description": "Interactive holographic display for immersive experiences"
+        },
+    ],
+}
 
 def check_password():
     """Password check for shop access"""
@@ -96,26 +108,15 @@ def check_password():
     
     return False, None
 
-def main():
-    # Password check
-    password_correct, access_level = check_password()
-    if not password_correct:
-        return
-    
-    # Main content
-    st.title("🛍️ Mainframe Shop")
-    
-    # Inventory table
-    st.markdown("### Available Components")
-    
-    # Table structure with proper alignment
-    table_html = """
+def render_table(category, items):
+    """Renders a table for a specific category."""
+    table_html = f"""
+    <h2>{category}</h2>
     <table class="inventory-table">
         <thead>
             <tr>
                 <th>Title</th>
                 <th>ID</th>
-                <th>Category</th>
                 <th>Description</th>
                 <th>Purchase</th>
             </tr>
@@ -123,12 +124,11 @@ def main():
         <tbody>
     """
     
-    for item in INVENTORY_DATA:
+    for item in items:
         table_html += f"""
             <tr>
                 <td>{item['Title']}</td>
                 <td>{item['ID']}</td>
-                <td>{item['Category']}</td>
                 <td>{item['Description']}</td>
                 <td><a href="{PURCHASE_LINK}" class="purchase-button" target="_blank">Purchase</a></td>
             </tr>
@@ -140,6 +140,19 @@ def main():
     """
     
     st.markdown(table_html, unsafe_allow_html=True)
+
+def main():
+    # Password check
+    password_correct, access_level = check_password()
+    if not password_correct:
+        return
+    
+    # Main content
+    st.title("🛍️ Mainframe Shop")
+    
+    # Render tables for each category
+    for category, items in INVENTORY_DATA.items():
+        render_table(category, items)
 
 if __name__ == "__main__":
     main()
