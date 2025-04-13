@@ -13,7 +13,7 @@ PURCHASE_LINK = "https://forms.google.com"
 
 # Sample inventory data for multiple categories
 INVENTORY_DATA = {
-    "Mainframe AI": [
+    "Mainframe AI (yearly price is cheaper than 12 individual months)": [
         {
             "Title": "Bronze Level",
             "ID": "AI_001",
@@ -39,7 +39,7 @@ INVENTORY_DATA = {
             "Purchase": "[$15/Y; $2/M]({PURCHASE_LINK})"
         }
     ],
-    "AP Human Geography Noteguides": [
+    "AP Human Geography Noteguides (alltogether is cheaper than each individually)": [
         {
             "Title": "Unit 1: Thinking Geographically",
             "ID": "HG_001",
