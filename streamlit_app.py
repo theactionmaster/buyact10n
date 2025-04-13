@@ -260,6 +260,202 @@ INVENTORY_DATA = {
             "Description": "All chapter noteguides for Pre-AP Biology with an added chapter-by-chapter summary of 'The Hot Zone'",
             "Purchase": "[$18]({PURCHASE_LINK})"
         }
+    ],
+    "AP Human Geography Online Paid Materials": [
+        {
+            "Title": "Mr. Sinn's Ultimate Review Packet",
+            "ID": "HGP_001",
+            "Description": "All the resources available in Mr. Sinn's Ultimate Review Packet for cheaper",
+            "Purchase": "[$15]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Heimler's History APHG Review Guide",
+            "ID": "HGP_010",
+            "Description": "All the resources available in the Heimler's History Review Guide for cheaper",
+            "Purchase": "[$20]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Heimler's History Video Noteguides",
+            "ID": "HGP_011",
+            "Description": "All the resources available in the Heimler's History Video Noteguides for cheaper",
+            "Purchase": "[$5]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Heimler's History Video Review Guide + Noteguides",
+            "ID": "HGP_100",
+            "Description": "All the resources available in Heimler's History paid APHG materials for cheaper",
+            "Purchase": "[$22]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "UWorld Human Geography QBank",
+            "ID": "HGP_101",
+            "Description": "All the practice questions available in the UWorld APHG question bank for cheaper",
+            "Purchase": "[$25]({PURCHASE_LINK})"
+        }
+    ],
+    "Pre-AP Algebra 2 Assignments": [
+        {
+            "Title": "Unit 1 Homeworks (Redacted Answers)",
+            "ID": "A2R_001",
+            "Description": "All the assignment sheets for Unit 1 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 1 Homeworks (Answered)",
+            "ID": "A2A_001",
+            "Description": "All the answered assignments for Unit 1 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 1 DOLs",
+            "ID": "A2D_001",
+            "Description": "All the DOL assignments for Unit 1 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 2 Homeworks (Redacted Answers)",
+            "ID": "A2R_002",
+            "Description": "All the assignment sheets for Unit 2 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 2 Homeworks (Answered)",
+            "ID": "A2A_002",
+            "Description": "All the answered assignments for Unit 2 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 2 DOLs",
+            "ID": "A2D_002",
+            "Description": "All the DOL assignments for Unit 2 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 3 Homeworks (Redacted Answers)",
+            "ID": "A2R_003",
+            "Description": "All the assignment sheets for Unit 3 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 3 Homeworks (Answered)",
+            "ID": "A2A_003",
+            "Description": "All the answered assignments for Unit 3 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 3 DOLs",
+            "ID": "A2D_003",
+            "Description": "All the DOL assignments for Unit 3 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 4 Homeworks (Redacted Answers)",
+            "ID": "A2R_004",
+            "Description": "All the assignment sheets for Unit 4 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 4 Homeworks (Answered)",
+            "ID": "A2A_004",
+            "Description": "All the answered assignments for Unit 4 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 4 DOLs",
+            "ID": "A2D_004",
+            "Description": "All the DOL assignments for Unit 4 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 5 Homeworks (Redacted Answers)",
+            "ID": "A2R_005",
+            "Description": "All the assignment sheets for Unit 5 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 5 Homeworks (Answered)",
+            "ID": "A2A_005",
+            "Description": "All the answered assignments for Unit 5 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 5 DOLs",
+            "ID": "A2D_005",
+            "Description": "All the DOL assignments for Unit 5 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 6 Homeworks (Redacted Answers)",
+            "ID": "A2R_006",
+            "Description": "All the assignment sheets for Unit 6 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 6 Homeworks (Answered)",
+            "ID": "A2A_006",
+            "Description": "All the answered assignments for Unit 6 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 6 DOLs",
+            "ID": "A2D_006",
+            "Description": "All the DOL assignments for Unit 6 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 7 Homeworks (Redacted Answers)",
+            "ID": "A2R_007",
+            "Description": "All the assignment sheets for Unit 7 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 7 Homeworks (Answered)",
+            "ID": "A2A_007",
+            "Description": "All the answered assignments for Unit 7 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 7 DOLs",
+            "ID": "A2D_007",
+            "Description": "All the DOL assignments for Unit 7 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 8 Homeworks (Redacted Answers)",
+            "ID": "A2R_008",
+            "Description": "All the assignment sheets for Unit 8 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 8 Homeworks (Answered)",
+            "ID": "A2A_008",
+            "Description": "All the answered assignments for Unit 8 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 8 DOLs",
+            "ID": "A2D_008",
+            "Description": "All the DOL assignments for Unit 8 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 9 Homeworks (Redacted Answers)",
+            "ID": "A2R_009",
+            "Description": "All the assignment sheets for Unit 9 of Pre-AP Algebra 2",
+            "Purchase": "[$1]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 9 Homeworks (Answered)",
+            "ID": "A2A_009",
+            "Description": "All the answered assignments for Unit 9 of Pre-AP Algebra 2",
+            "Purchase": "[$1.25]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 9 DOLs",
+            "ID": "A2D_009",
+            "Description": "All the DOL assignments for Unit 9 of Pre-AP Algebra 2",
+            "Purchase": "[$0.50]({PURCHASE_LINK})"
+        }
     ]
 }
 
