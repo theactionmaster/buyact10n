@@ -11,6 +11,8 @@ st.set_page_config(
 # Google Form URL (replace with actual form URL)
 PURCHASE_LINK = "https://forms.google.com"
 
+FREE_LINK = "https://drive.google.com/drive/folders/1pYmLOavrSBtM196vz3-mymdHiFByvya8?usp=drive_link"
+
 # Sample inventory data for multiple categories
 INVENTORY_DATA = {
     "Mainframe AI": [
@@ -37,6 +39,14 @@ INVENTORY_DATA = {
             "ID": "**AI_100**",
             "Description": "**Greater access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads**",
             "Purchase": "**[$15/Y; $2/M]({PURCHASE_LINK})**"
+        }
+    ],
+    "Free Resources": [
+        {
+            "Title": "**Free Resources*8",
+            "ID": "**FR_000**",
+            "Description": "**Textbooks and simple resources provided/linked for free**",
+            "Purchase": "[Free]({FREE_LINK})"
         }
     ],
     "AP Human Geography Noteguides": [
