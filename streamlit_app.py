@@ -571,7 +571,7 @@ INVENTORY_DATA = {
 
 def main():
     
-    st.title("🤑 Mainframe Shop")
+    st.title("📒 Mainframe Shop")
     st.link_button("Back to **Mainframe AI**", "https://mainframe.streamlit.app")
     
     # Render tables for each category
