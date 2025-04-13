@@ -585,18 +585,21 @@ def main():
 
     for category, items in INVENTORY_DATA.items(): 
         st.markdown(f"## {category}") 
-
-        # Create a new list to hold updated items with links 
         updated_items = [] 
         for item in items: 
-            new_item = item.copy()  # Create a copy to avoid modifying the original 
+            new_item = item.copy() 
             if "Purchase" in new_item: 
-                if "[Free (click here)]" in new_item["Purchase"]: 
-                    new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
-                else: 
-                    new_item["Purchase"] = f"{new_item['Purchase']}" 
-            updated_items.append(new_item) 
+                price_part, link_part = new_item["Purchase"].split("(", 1) #split at the first '(' 
+                link_part = link_part[:-1] #remove the ')' at the end 
 
+                if link_part == "Free (click here)": 
+                    new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
+                elif link_part == "PURCHASE_LINK": 
+                    new_item["Purchase"] = f"{price_part}({PURCHASE_LINK})" 
+                else: 
+                    new_item["Purchase"] = f"{price_part}({PURCHASE_LINK})" #Handles cases where there's already a link 
+
+            updated_items.append(new_item) 
         df = pd.DataFrame(updated_items) 
         st.table(df.style.hide(axis="index")) 
 
