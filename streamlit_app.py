@@ -33,10 +33,10 @@ INVENTORY_DATA = {
             "Purchase": "[$10/Y; $1/M]({PURCHASE_LINK})"
         },
         {
-            "Title": "Platinum Level",
-            "ID": "AI_100",
-            "Description": "Greater access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads",
-            "Purchase": "[$15/Y; $2/M]({PURCHASE_LINK})"
+            "Title": "**Platinum Level**",
+            "ID": "**AI_100**",
+            "Description": "**Greater access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads**",
+            "Purchase": "**[$15/Y; $2/M]({PURCHASE_LINK})**"
         }
     ],
     "AP Human Geography Noteguides": [
@@ -83,10 +83,10 @@ INVENTORY_DATA = {
             "Purchase": "[$6]({PURCHASE_LINK})"
         },
         {
-            "Title": "All AP Human Geography Noteguides + FRQ Review Guide",
-            "ID": "HG_1000",
-            "Description": "All 7 noteguides with an added FRQ review guide",
-            "Purchase": "[$15]({PURCHASE_LINK})"
+            "Title": "**All AP Human Geography Noteguides + FRQ Review Guide**",
+            "ID": "*HG_1000**",
+            "Description": "**All 7 noteguides with an added FRQ review guide**",
+            "Purchase": "**[$15]({PURCHASE_LINK})**"
         }
     ],
     "English I Noteguides": [
