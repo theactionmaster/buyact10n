@@ -293,6 +293,80 @@ INVENTORY_DATA = {
             "Purchase": "**[$25]({PURCHASE_LINK})**"
         }
     ],
+    "AP Human Geography Project MCTs": [
+        {
+            "Title": "Project 1 MCT (Redacted Answers)",
+            "ID": "HGR_001",
+            "Description": "All the questions from the Project 1 APHG MCT",
+            "Purchase": "[$3]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 1 MCT (Answered)",
+            "ID": "HGA_001",
+            "Description": "All the answers for the Project 1 APHG MCT",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 2 MCT (Redacted Answers)",
+            "ID": "HGR_002",
+            "Description": "All the questions from the Project 2 APHG MCT",
+            "Purchase": "[$3]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 2 MCT (Answered)",
+            "ID": "HGA_002",
+            "Description": "All the answers for the Project 2 APHG MCT",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 3 MCT (Redacted Answers)",
+            "ID": "HGR_003",
+            "Description": "All the questions from the Project 3 APHG MCT",
+            "Purchase": "[$3]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 3 MCT (Answered)",
+            "ID": "HGA_003",
+            "Description": "All the answers for the Project 3 APHG MCT",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 4 MCT (Redacted Answers)",
+            "ID": "HGR_004",
+            "Description": "All the questions from the Project 4 APHG MCT",
+            "Purchase": "[$3]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 4 MCT (Answered)",
+            "ID": "HGA_004",
+            "Description": "All the answers for the Project 4 APHG MCT",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 5 MCT (Redacted Answers)",
+            "ID": "HGR_005",
+            "Description": "All the questions from the Project 5 APHG MCT",
+            "Purchase": "[$3]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 5 MCT (Answered)",
+            "ID": "HGA_005",
+            "Description": "All the answers for the Project 5 APHG MCT",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 6 MCT (Redacted Answers)",
+            "ID": "HGR_006",
+            "Description": "All the questions from the Project 6 APHG MCT",
+            "Purchase": "[$3]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Project 6 MCT (Answered)",
+            "ID": "HGA_006",
+            "Description": "All the answers for the Project 6 APHG MCT",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        }
+    ],
     "Pre-AP Algebra 2 Assignments": [
         {
             "Title": "Unit 1 Homeworks (Redacted Answers)",
