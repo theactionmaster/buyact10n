@@ -575,7 +575,7 @@ def main():
         for item in items: 
             new_item = item.copy() 
             if "Purchase" in new_item: 
-                if "Free (click here)" in new_item["Purchase"]:  # Check for "Free" specifically 
+                if "Free" in new_item["Purchase"]:  # Check for "Free" specifically 
                     new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
                 else: 
                     try: 
