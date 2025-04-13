@@ -99,14 +99,6 @@ INVENTORY_DATA = {
             "Purchase": "[$15]"
         }
     ],
-    "English I Noteguides": [
-        {
-            "Title": "'The Odyssey' Notes",
-            "ID": "E1_001",
-            "Description": "Book-by-book summary of 'The Odyssey'",
-            "Purchase": "[$0.50]"
-        }
-    ],
     "Pre-AP Biology Noteguides": [
         {
             "Title": "Chapter 1: The Science of Biology",
