@@ -13,33 +13,81 @@ PURCHASE_LINK = "https://forms.google.com"
 
 # Sample inventory data for multiple categories
 INVENTORY_DATA = {
-    "Hardware": [
+    "Mainframe AI": [
         {
-            "Title": "Quantum Processor X9",
-            "ID": "MF-001",
-            "Description": "Next-gen quantum processing unit with 128 qubits",
-            "Purchase": f"[Purchase]({PURCHASE_LINK})"
+            "Title": "Bronze Level",
+            "ID": "AI_001",
+            "Description": "Basic access to AI chatbot features",
+            "Purchase": f"[$0.50/month; $5/year]({PURCHASE_LINK})"
         },
         {
-            "Title": "Advanced GPU Zeta",
-            "ID": "MF-003",
-            "Description": "High-performance GPU for AI workloads",
-            "Purchase": f"[Purchase]({PURCHASE_LINK})"
+            "Title": "Silver Level",
+            "ID": "AI_010",
+            "Description": "Minimal access to Bronze Level features with greater customizability and camera & voice integration",
+            "Purchase": f"[$0.75/month; $8/year]({PURCHASE_LINK})"
         },
+        {
+            "Title": "Gold Level",
+            "ID": "AI_011",
+            "Description": "Greater access to Silver Level features with prebuilt commands for (1) FRQ writing, (2) APHG Flashcard creation, (3) Cornell notetaking and more",
+            "Purchase": f"[$1/month; $10/year]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Platinum Level",
+            "ID": "AI_100",
+            "Description": "Greater access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads",
+            "Purchase": f"[$2/month; $15/year]({PURCHASE_LINK})"
+        }
     ],
-    "Peripherals": [
+    "AP Human Geography Noteguides": [
         {
-            "Title": "Neural Interface Module",
-            "ID": "MF-002",
-            "Description": "High-bandwidth neural connectivity interface",
-            "Purchase": f"[Purchase]({PURCHASE_LINK})"
+            "Title": "Unit 1: Thinking Geographically",
+            "ID": "HG_001",
+            "Description": "Full, in-depth study & review noteguide for Unit 1 of AP Human Geography",
+            "Purchase": "[$1.50]({PURCHASE_LINK})"
         },
         {
-            "Title": "Holographic Display Unit",
-            "ID": "MF-004",
-            "Description": "Interactive holographic display for immersive experiences",
-            "Purchase": f"[Purchase]({PURCHASE_LINK})"
+            "Title": "Unit 2: Population & Migration Patterns",
+            "ID": "HG_010",
+            "Description": "Full, in-depth study & review noteguide for Unit 2 of AP Human Geography",
+            "Purchase": "[$2.50]({PURCHASE_LINK})"
         },
+        {
+            "Title": "Unit 3: Cultural Patterns & Processes",
+            "ID": "HG_011",
+            "Description": "Full, in-depth study & review noteguide for Unit 3 of AP Human Geography",
+            "Purchase": "[$5]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 4: Political Patterns & Processes",
+            "ID": "HG_100",
+            "Description": "Full, in-depth study & review noteguide for Unit 4 of AP Human Geography",
+            "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 5: Agricultural & Rural Land-Use Patterns",
+            "ID": "HG_101",
+            "Description": "Full, in-depth study & review noteguide for Unit 5 of AP Human Geography",
+            "Purchase": "[$7]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 6: Cities & Urban Land-Use Patterns",
+            "ID": "HG_110",
+            "Description": "Full, in-depth study & review noteguide for Unit 6 of AP Human Geography",
+            "Purchase": "[$5]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Unit 7: Industrialization & Economic Development",
+            "ID": "HG_111",
+            "Description": "Full, in-depth study & review noteguide for Unit 7 of AP Human Geography",
+            "Purchase": "[$6]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "All AP Human Geography Noteguides + FRQ Review Guide",
+            "ID": "HG_1000",
+            "Description": "All 7 noteguides with an added FRQ review guide",
+            "Purchase": "[$15]({PURCHASE_LINK})"
+        }
     ],
 }
 
