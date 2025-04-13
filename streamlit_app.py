@@ -279,12 +279,6 @@ INVENTORY_DATA = {
             "Purchase": "[$15]"
         },
         {
-            "Title": "Mainframe Human Geography Vocabulary",
-            "ID": "HGP_010",
-            "Description": "1500+ human geography vocabulary terms & definitions",
-            "Purchase": "[$2.50]"
-        },
-        {
             "Title": "Heimler's History APHG Review Guide",
             "ID": "HGP_011",
             "Description": "All the resources available in the Heimler's History Review Guide for cheaper",
