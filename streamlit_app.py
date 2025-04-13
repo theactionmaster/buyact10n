@@ -269,26 +269,32 @@ INVENTORY_DATA = {
             "Purchase": "**[$15]({PURCHASE_LINK})**"
         },
         {
-            "Title": "Heimler's History APHG Review Guide",
+            "Title": "Mainframe Human Geography Vocabulary",
             "ID": "HGP_010",
+            "Description": "1500+ human geography vocabulary terms & definitions",
+            "Purchase": "[$2.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "Heimler's History APHG Review Guide",
+            "ID": "HGP_011",
             "Description": "All the resources available in the Heimler's History Review Guide for cheaper",
             "Purchase": "[$20]({PURCHASE_LINK})"
         },
         {
             "Title": "Heimler's History Video Noteguides",
-            "ID": "HGP_011",
+            "ID": "HGP_100",
             "Description": "All the resources available in the Heimler's History Video Noteguides for cheaper",
             "Purchase": "[$5]({PURCHASE_LINK})"
         },
         {
             "Title": "**Heimler's History Video Review Guide + Noteguides**",
-            "ID": "**HGP_100**",
+            "ID": "**HGP_101**",
             "Description": "**All the resources available in Heimler's History paid APHG materials for cheaper**",
             "Purchase": "**[$22]({PURCHASE_LINK})**"
         },
         {
             "Title": "**UWorld Human Geography QBank**",
-            "ID": "**HGP_101**",
+            "ID": "**HGP_110**",
             "Description": "**All the practice questions available in the UWorld APHG question bank for cheaper**",
             "Purchase": "**[$25]({PURCHASE_LINK})**"
         }
