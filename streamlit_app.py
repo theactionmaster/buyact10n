@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+# Enable wide mode
+st.set_page_config(page_title="Mainframe Shop", layout="wide")
+
 # Google Form URL (replace with actual form URL)
 PURCHASE_LINK = "https://forms.google.com"
 
