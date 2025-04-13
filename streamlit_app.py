@@ -576,7 +576,10 @@ def main():
             new_item = item.copy() 
             if "Purchase" in new_item: 
                 if "Free" in new_item["Purchase"]:  # Check for "Free" specifically 
-                    new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
+                    if "Free (click here)" in new_item["Purchase"]:
+                        new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
+                    else:
+                        new_item["Purchase"] = f"[Free]({FREE_LINK})" 
                 else: 
                     try: 
                         price_part, link_part = new_item["Purchase"].split("(", 1) 
