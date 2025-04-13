@@ -9,39 +9,25 @@ st.markdown("""
         font-family: 'Montserrat', sans-serif !important;
     }
     
-    .back-button {
-        width: 300px;
-        margin-top: 20px;
-        padding: 10px 20px;
-        font-size: 18px;
-        background-color: #0b1936;
-        color: #5799f7;
-        border: 2px solid #4a83d4;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        box-shadow: 0 0 15px rgba(74, 131, 212, 0.3);
-    }
-    
-    /* Table styling */
     .inventory-table {
         width: 100%;
         border-collapse: collapse;
         margin: 25px 0;
     }
     
+    .inventory-table th, .inventory-table td {
+        padding: 12px 15px;
+        text-align: left;
+        border: 1px solid #2d3b5e;
+    }
+    
     .inventory-table th {
         background-color: #0b1936;
         color: #5799f7;
-        padding: 12px 15px;
-        text-align: left;
     }
     
     .inventory-table td {
-        padding: 12px 15px;
-        border-bottom: 1px solid #2d3b5e;
+        color: #ffffff;
     }
     
     .purchase-button {
@@ -118,41 +104,42 @@ def main():
     
     # Main content
     st.title("🛍️ Mainframe Shop")
-    st.link_button("Back to **Mainframe AI**", "https://mainframe.streamlit.app")
-    st.divider()
     
     # Inventory table
     st.markdown("### Available Components")
     
-    # Table header
-    st.markdown("""
+    # Table structure with proper alignment
+    table_html = """
     <table class="inventory-table">
-        <tr>
-            <th>Title</th>
-            <th>ID</th>
-            <th>Category</th>
-            <th>Description</th>
-            <th>Purchase</th>
-        </tr>
-    """, unsafe_allow_html=True)
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>ID</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Purchase</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
     
-    # Table rows
     for item in INVENTORY_DATA:
-        st.markdown(f"""
-        <tr>
-            <td><strong>{item['Title']}</strong></td>
-            <td><strong>{item['ID']}</strong></td>
-            <td>{item['Category']}</td>
-            <td>{item['Description']}</td>
-            <td>
-                <a href="{PURCHASE_LINK}" class="purchase-button" target="_blank">Purchase</a>
-            </td>
-        </tr>
-        """, unsafe_allow_html=True)
+        table_html += f"""
+            <tr>
+                <td>{item['Title']}</td>
+                <td>{item['ID']}</td>
+                <td>{item['Category']}</td>
+                <td>{item['Description']}</td>
+                <td><a href="{PURCHASE_LINK}" class="purchase-button" target="_blank">Purchase</a></td>
+            </tr>
+        """
     
-    # Close table
-    st.markdown("</table>", unsafe_allow_html=True)
-    st.divider()
+    table_html += """
+        </tbody>
+    </table>
+    """
+    
+    st.markdown(table_html, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
