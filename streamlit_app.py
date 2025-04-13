@@ -469,7 +469,7 @@ INVENTORY_DATA = {
             "Purchase": "[$8]({PURCHASE_LINK})"
         },
         {
-            "Title": "All DOLs",
+            "Title": "**All DOLs**",
             "ID": "A2D_1000",
             "Description": "All the DOL assignments for Pre-AP Algebra 2",
             "Purchase": "[$3]({PURCHASE_LINK})"
