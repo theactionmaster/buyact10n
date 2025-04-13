@@ -455,6 +455,24 @@ INVENTORY_DATA = {
             "ID": "A2D_009",
             "Description": "All the DOL assignments for Unit 9 of Pre-AP Algebra 2",
             "Purchase": "[$0.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "All Homeworks (Redacted Answers)",
+            "ID": "A2R_1000",
+            "Description": "All the assignment sheets for Pre-AP Algebra 2",
+            "Purchase": "[$7.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "All Homeworks (Answered)",
+            "ID": "A2A_1000",
+            "Description": "All the answered assignments for Pre-AP Algebra 2",
+            "Purchase": "[$8]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "All DOLs",
+            "ID": "A2D_1000",
+            "Description": "All the DOL assignments for Pre-AP Algebra 2",
+            "Purchase": "[$3]({PURCHASE_LINK})"
         }
     ]
 }
