@@ -18,25 +18,25 @@ INVENTORY_DATA = {
             "Title": "Bronze Level",
             "ID": "AI_001",
             "Description": "Basic access to AI chatbot features",
-            "Purchase": "[$0.50/month; $5/year]({PURCHASE_LINK})"
+            "Purchase": "[$0.50/M; $5/Y]({PURCHASE_LINK})"
         },
         {
             "Title": "Silver Level",
             "ID": "AI_010",
             "Description": "Minimal access to Bronze Level features with greater customizability and camera & voice integration",
-            "Purchase": "[$0.75/month; $8/year]({PURCHASE_LINK})"
+            "Purchase": "[$0.75/M; $8/Y]({PURCHASE_LINK})"
         },
         {
             "Title": "Gold Level",
             "ID": "AI_011",
             "Description": "Greater access to Silver Level features with prebuilt commands for (1) FRQ writing, (2) APHG Flashcard creation, (3) Cornell notetaking and more",
-            "Purchase": "[$1/month; $10/year]({PURCHASE_LINK})"
+            "Purchase": "[$1/M; $10/Y]({PURCHASE_LINK})"
         },
         {
             "Title": "Platinum Level",
             "ID": "AI_100",
             "Description": "Greater access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads",
-            "Purchase": "[$2/month; $15/year]({PURCHASE_LINK})"
+            "Purchase": "[$2/M; $15/Y]({PURCHASE_LINK})"
         }
     ],
     "AP Human Geography Noteguides": [
