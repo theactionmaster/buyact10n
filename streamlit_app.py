@@ -37,15 +37,9 @@ INVENTORY_DATA = {
 }
 
 def main():
-    # Back to Mainframe AI button
-    st.markdown(
-        f'<a href="https://mainframe.streamlit.app" style="text-decoration:none;">'
-        f'<button style="background-color:#0b1936; color:#5799f7; padding:10px 20px; border:none; border-radius:5px; font-size:16px;">Back to Mainframe AI</button>'
-        f'</a>',
-        unsafe_allow_html=True,
-    )
     
     st.title("🛍️ Mainframe Shop")
+    st.link_button("Back to **Mainframe AI**", "https://mainframe.streamlit.app")
     
     # Render tables for each category
     for category, items in INVENTORY_DATA.items():
