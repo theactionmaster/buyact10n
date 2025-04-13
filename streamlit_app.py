@@ -46,7 +46,7 @@ INVENTORY_DATA = {
             "Title": "**Free Resources**",
             "ID": "**FR_000**",
             "Description": "**Textbooks and simple resources provided/linked for free**",
-            "Purchase": "[Free (click here)]({FREE_LINK})"
+            "Purchase": "**[Free (click here)]({FREE_LINK})**"
         }
     ],
     "AP Human Geography Noteguides": [
