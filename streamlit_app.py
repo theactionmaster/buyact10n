@@ -255,18 +255,18 @@ INVENTORY_DATA = {
             "Purchase": "[$1]({PURCHASE_LINK})"
         },
         {
-            "Title": "All Pre-AP Biology Noteguides + 'The Hot Zone' Summary",
-            "ID": "BIO_1000",
-            "Description": "All chapter noteguides for Pre-AP Biology with an added chapter-by-chapter summary of 'The Hot Zone'",
-            "Purchase": "[$18]({PURCHASE_LINK})"
+            "Title": "**All Pre-AP Biology Noteguides + 'The Hot Zone' Summary**",
+            "ID": "**BIO_1000**",
+            "Description": "**All chapter noteguides for Pre-AP Biology with an added chapter-by-chapter summary of 'The Hot Zone'**",
+            "Purchase": "**[$18]({PURCHASE_LINK})**"
         }
     ],
     "AP Human Geography Online Paid Materials": [
         {
-            "Title": "Mr. Sinn's Ultimate Review Packet",
-            "ID": "HGP_001",
-            "Description": "All the resources available in Mr. Sinn's Ultimate Review Packet for cheaper",
-            "Purchase": "[$15]({PURCHASE_LINK})"
+            "Title": "**Mr. Sinn's Ultimate Review Packet**",
+            "ID": "**HGP_001**",
+            "Description": "**All the resources available in Mr. Sinn's Ultimate Review Packet for cheaper**",
+            "Purchase": "**[$15]({PURCHASE_LINK})**"
         },
         {
             "Title": "Heimler's History APHG Review Guide",
@@ -281,16 +281,16 @@ INVENTORY_DATA = {
             "Purchase": "[$5]({PURCHASE_LINK})"
         },
         {
-            "Title": "Heimler's History Video Review Guide + Noteguides",
-            "ID": "HGP_100",
-            "Description": "All the resources available in Heimler's History paid APHG materials for cheaper",
-            "Purchase": "[$22]({PURCHASE_LINK})"
+            "Title": "**Heimler's History Video Review Guide + Noteguides**",
+            "ID": "**HGP_100**",
+            "Description": "**All the resources available in Heimler's History paid APHG materials for cheaper"**,
+            "Purchase": "**[$22]({PURCHASE_LINK})**"
         },
         {
-            "Title": "UWorld Human Geography QBank",
-            "ID": "HGP_101",
-            "Description": "All the practice questions available in the UWorld APHG question bank for cheaper",
-            "Purchase": "[$25]({PURCHASE_LINK})"
+            "Title": "**UWorld Human Geography QBank**",
+            "ID": "**HGP_101**",
+            "Description": "**All the practice questions available in the UWorld APHG question bank for cheaper**",
+            "Purchase": "**[$25]({PURCHASE_LINK})**"
         }
     ],
     "Pre-AP Algebra 2 Assignments": [
@@ -457,22 +457,22 @@ INVENTORY_DATA = {
             "Purchase": "[$0.50]({PURCHASE_LINK})"
         },
         {
-            "Title": "All Homeworks (Redacted Answers)",
-            "ID": "A2R_1000",
-            "Description": "All the assignment sheets for Pre-AP Algebra 2",
-            "Purchase": "[$7.50]({PURCHASE_LINK})"
+            "Title": "**All Homeworks (Redacted Answers)**",
+            "ID": "**A2R_1000**",
+            "Description": "**All the assignment sheets for Pre-AP Algebra 2**",
+            "Purchase": "**[$7.50]({PURCHASE_LINK})**"
         },
         {
-            "Title": "All Homeworks (Answered)",
-            "ID": "A2A_1000",
-            "Description": "All the answered assignments for Pre-AP Algebra 2",
-            "Purchase": "[$8]({PURCHASE_LINK})"
+            "Title": "**All Homeworks (Answered)**",
+            "ID": "**A2A_1000**",
+            "Description": "**All the answered assignments for Pre-AP Algebra 2**",
+            "Purchase": "**[$8]({PURCHASE_LINK})**"
         },
         {
             "Title": "**All DOLs**",
-            "ID": "A2D_1000",
-            "Description": "All the DOL assignments for Pre-AP Algebra 2",
-            "Purchase": "[$3]({PURCHASE_LINK})"
+            "ID": "**A2D_1000**",
+            "Description": "**All the DOL assignments for Pre-AP Algebra 2**",
+            "Purchase": "**[$3]({PURCHASE_LINK})**"
         }
     ]
 }
