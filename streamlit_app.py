@@ -365,6 +365,18 @@ INVENTORY_DATA = {
             "ID": "HGA_006",
             "Description": "All the answers for the Project 6 APHG MCT",
             "Purchase": "[$4.50]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "ALL MCTs (Redacted Answers)",
+            "ID": "HGR_1000",
+            "Description": "All the questions from the APHG MCTs",
+            "Purchase": "[$15]({PURCHASE_LINK})"
+        },
+        {
+            "Title": "ALL MCTs (Answered)",
+            "ID": "HGA_1000",
+            "Description": "All the answers for the APHG MCTs",
+            "Purchase": "[$18]({PURCHASE_LINK})"
         }
     ],
     "Pre-AP Algebra 2 Assignments": [
