@@ -589,19 +589,15 @@ def main():
         for item in items: 
             new_item = item.copy() 
             if "Purchase" in new_item: 
-                try: 
-                    price_part, link_part = new_item["Purchase"].split("(", 1) 
-                    link_part = link_part[:-1] 
-
-                    if link_part == "Free (click here)": 
-                        new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
-                    elif link_part == "PURCHASE_LINK": 
+                if "Free (click here)" in new_item["Purchase"]:  # Check for "Free" specifically 
+                    new_item["Purchase"] = f"[Free (click here)]({FREE_LINK})" 
+                else: 
+                    try: 
+                        price_part, link_part = new_item["Purchase"].split("(", 1) 
+                        link_part = link_part[:-1]  # Remove trailing ')' 
                         new_item["Purchase"] = f"{price_part}({PURCHASE_LINK})" 
-                    else: 
-                        new_item["Purchase"] = f"{price_part}({PURCHASE_LINK})" 
-                except ValueError: 
-                    # Handle cases where '(' is not found 
-                    new_item["Purchase"] = f"{new_item['Purchase']}({PURCHASE_LINK})" #add link if no parenthesis 
+                    except ValueError: 
+                        new_item["Purchase"] = f"{new_item['Purchase']}({PURCHASE_LINK})" 
 
             updated_items.append(new_item) 
         df = pd.DataFrame(updated_items) 
