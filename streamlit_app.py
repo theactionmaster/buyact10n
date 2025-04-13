@@ -43,7 +43,7 @@ INVENTORY_DATA = {
     ],
     "Free Resources": [
         {
-            "Title": "**Free Resources*8",
+            "Title": "**Free Resources**",
             "ID": "**FR_000**",
             "Description": "**Textbooks and simple resources provided/linked for free**",
             "Purchase": "[Free]({FREE_LINK})"
