@@ -54,7 +54,7 @@ INVENTORY_DATA = {
             "Title": "Unit 1: Thinking Geographically",
             "ID": "HG_001",
             "Description": "Full, in-depth study & review noteguide for Unit 1 of AP Human Geography",
-            "Purchase": "[$1.50]"
+            "Purchase": "[Free (click here)]"
         },
         {
             "Title": "Unit 2: Population & Migration Patterns",
@@ -104,7 +104,7 @@ INVENTORY_DATA = {
             "Title": "Chapter 1: The Science of Biology",
             "ID": "BIO_001",
             "Description": "Full, in-depth study & review noteguide for Chapter 1 of Pre-AP Biology",
-            "Purchase": "[$0.50]"
+            "Purchase": "[Free (click here)]"
         },
         {
             "Title": "Chapter 2: The Chemistry of Life",
