@@ -17,28 +17,52 @@ FREE_LINK = "https://drive.google.com/drive/folders/1pYmLOavrSBtM196vz3-mymdHiFB
 INVENTORY_DATA = {
     "Mainframe AI": [
         {
-            "Title": "Bronze Level",
-            "ID": "AI_001",
-            "Description": "Basic access to AI chatbot features",
-            "Purchase": "[$5/Y; $0.50/M]"
+            "Title": "Bronze Level **(1 MONTH)**",
+            "ID": "AIM_001",
+            "Description": "Basic access to AI chatbot features (for 1 month)",
+            "Purchase": "[$0.50]"
         },
         {
-            "Title": "Silver Level",
-            "ID": "AI_010",
-            "Description": "Minimal access to Bronze Level features with greater customizability and camera & voice integration",
-            "Purchase": "[$8/Y; $0.75/M]"
+            "Title": "Silver Level **(1 MONTH)**",
+            "ID": "AIM_010",
+            "Description": "Minimal access to Bronze Level features with greater customizability and camera & voice integration (for 1 month)",
+            "Purchase": "[$0.75]"
         },
         {
-            "Title": "Gold Level",
-            "ID": "AI_011",
-            "Description": "Greater access to Silver Level features with prebuilt commands for (1) FRQ writing, (2) APHG Flashcard creation, (3) Cornell notetaking and more",
-            "Purchase": "[$10/Y; $1/M]"
+            "Title": "Gold Level **(1 MONTH)**",
+            "ID": "AIM_011",
+            "Description": "Greater access to Silver Level features with prebuilt commands for (1) FRQ writing, (2) APHG Flashcard creation, (3) Cornell notetaking and more (for 1 month)",
+            "Purchase": "[$1]"
         },
         {
-            "Title": "Platinum Level",
-            "ID": "AI_100",
-            "Description": "Greater access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads",
-            "Purchase": "[$15/Y; $2/M]"
+            "Title": "Platinum Level **(1 MONTH)**",
+            "ID": "AIM_100",
+            "Description": "Full access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads (for 1 month)",
+            "Purchase": "[$2]"
+        },
+        {
+            "Title": "Bronze Level **(1 YEAR)**",
+            "ID": "AIY_001",
+            "Description": "Basic access to AI chatbot features (for 1 year)",
+            "Purchase": "[$5]"
+        },
+        {
+            "Title": "Silver Level **(1 YEAR)**",
+            "ID": "AIY_010",
+            "Description": "Minimal access to Bronze Level features with greater customizability and camera & voice integration (for 1 year)",
+            "Purchase": "[$8]"
+        },
+        {
+            "Title": "Gold Level **(1 YEAR)**",
+            "ID": "AIY_011",
+            "Description": "Greater access to Silver Level features with prebuilt commands for (1) FRQ writing, (2) APHG Flashcard creation, (3) Cornell notetaking and more (for 1 year)",
+            "Purchase": "[$10]"
+        },
+        {
+            "Title": "Platinum Level **(1 YEAR)**",
+            "ID": "AIY_100",
+            "Description": "Full access to Gold Level features with unrestricted file types (image, video, document, etc.) and unlimited file uploads (for 1 year)",
+            "Purchase": "[$15]"
         }
     ],
     "Free Resources": [
