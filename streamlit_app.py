@@ -356,7 +356,7 @@ INVENTORY_DATA = {
         },
         {
             "Title": "Last-Minute AP Human Geography Review Packet",
-            "ID": "HGP_1100",
+            "ID": "HGP_1101",
             "Description": "A full AP Human Geography study guide perfect for a last-minute information review",
             "Purchase": "[$0.50]"
         }
