@@ -452,7 +452,7 @@ INVENTORY_DATA = {
             "Title": "Unit 1 Homeworks (Redacted Answers)",
             "ID": "A2R_001",
             "Description": "All the assignment sheets for Unit 1 of Pre-AP Algebra 2",
-            "Purchase": "[$1]"
+            "Purchase": "[Free]"
         },
         {
             "Title": "Unit 1 Homeworks (Answered)",
