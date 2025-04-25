@@ -366,7 +366,7 @@ INVENTORY_DATA = {
             "Title": "Project 1 MCT (Redacted Answers)",
             "ID": "HGR_001",
             "Description": "All the questions from the Project 1 APHG MCT",
-            "Purchase": "[$3]"
+            "Purchase": "[Free]"
         },
         {
             "Title": "Project 1 MCT (Answered)",
