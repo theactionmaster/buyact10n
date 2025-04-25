@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Google Form URL (replace with actual form URL)
-PURCHASE_LINK = "https://forms.google.com"
+PURCHASE_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSelL8q9moVB7O6XvmeJW2Th_XLAl6eh8qh9waUuaeX0iqUPkA/viewform?usp=dialog"
 
 FREE_LINK = "https://drive.google.com/drive/folders/1pYmLOavrSBtM196vz3-mymdHiFByvya8?usp=drive_link"
 
