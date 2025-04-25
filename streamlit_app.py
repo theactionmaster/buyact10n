@@ -317,6 +317,48 @@ INVENTORY_DATA = {
             "ID": "HGP_110",
             "Description": "All the practice questions available in the UWorld APHG question bank for cheaper",
             "Purchase": "[$25]"
+        },
+        {
+            "Title": "5 Steps to a 5 - AP Human Geography (2020 Edition)",
+            "ID": "HGP_111",
+            "Description": "The 2020 Edition for the 5 Steps to a 5 AP Human Geography book",
+            "Purchase": "[$5]"
+        },
+        {
+            "Title": "Barron's AP Human Geography",
+            "ID": "HGP_1000",
+            "Description": "The Barron's Human Geography book",
+            "Purchase": "[$2]"
+        },
+        {
+            "Title": "Princeton Review ASAP Human Geography",
+            "ID": "HGP_1001",
+            "Description": "The Princeton Review ASAP Human Geography book",
+            "Purchase": "[$1.50]"
+        },
+        {
+            "Title": "Princeton Review Human Geography (2021 Edition)",
+            "ID": "HGP_1010",
+            "Description": "The 2021 Edition of the Princeton Review Official Human Geography book",
+            "Purchase": "[$2.50]"
+        },
+        {
+            "Title": "The Cultural Landscape: An Introduction to Human Geography by James M. Rubenstein",
+            "ID": "HGP_1011",
+            "Description": "The Human Geography information book by James M. Rubenstein",
+            "Purchase": "[$1]"
+        },
+        {
+            "Title": "AP Human Geography MOTHERLOAD Packet",
+            "ID": "HGP_1100",
+            "Description": "The Motherload pakcet with all information needed for AP Human Geography",
+            "Purchase": "[$1.75]"
+        },
+        {
+            "Title": "Last-Minute AP Human Geography Review Packet",
+            "ID": "HGP_1100",
+            "Description": "A full AP Human Geography study guide perfect for a last-minute information review",
+            "Purchase": "[$0.50]"
         }
     ],
     "AP Human Geography Project MCTs": [
