@@ -366,7 +366,7 @@ INVENTORY_DATA = {
             "Title": "Project 1 MCT (Redacted Answers)",
             "ID": "HGR_001",
             "Description": "All the questions from the Project 1 APHG MCT",
-            "Purchase": "[Free]"
+            "Purchase": "[$3]"
         },
         {
             "Title": "Project 1 MCT (Answered)",
@@ -452,7 +452,7 @@ INVENTORY_DATA = {
             "Title": "Unit 1 Homeworks (Redacted Answers)",
             "ID": "A2R_001",
             "Description": "All the assignment sheets for Unit 1 of Pre-AP Algebra 2",
-            "Purchase": "[Free]"
+            "Purchase": "[$1]"
         },
         {
             "Title": "Unit 1 Homeworks (Answered)",
